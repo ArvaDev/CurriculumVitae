@@ -1,0 +1,85 @@
+*{
+    font-family: Trebuchet MS;
+    margin: 0;
+}
+
+.lateral{
+    text-align: center;
+    background: #323f42;
+    height: 100vh;
+    width: 30%;
+
+    color: #effdff;
+}
+
+
+/*
+Contenido
+*/
+.contenido{
+    position: absolute;
+    background: #d0d0d0;
+    height: 100vh;
+    width: 70%;
+    top: 0px;
+    right: 0px;
+}
+.contenido div{
+    margin: 20px 30px;
+}
+.contenido div h1{
+    font-size: 50px;
+    color: #323f42;
+}
+
+.info{
+    padding: 10px 5px;
+    color: #152123;
+}
+.max{
+    border-top: #152123 solid 5px;
+}
+.min{
+    border-top: #152123 solid 3px;
+}
+/*
+Datos
+*/
+.datos{
+    text-align: left;
+    margin: 10px 40px 0px 40px;
+    border-top: solid 2px #effdff;
+    padding: 10px;
+}
+
+/*
+Perfil figura
+*/
+.perfil{
+    position: relative;
+    height: 200px;
+    top: 10px;
+    left: 27%;
+    width: 200px;
+    background: #effdff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cabeza{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+}
+.cuerpo{
+    position: relative;
+    left: 15px;
+    top: 25px;
+    height: 175px;
+    width: 175px;
+}
+.perfil div{
+    border-radius: 50%;
+    background: #8b9495;
+}
